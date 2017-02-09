@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         tableVC.title = "Contacts"
         
         let navi = UINavigationController(rootViewController: tableVC)
+        self.window?.rootViewController = navi
         
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white, NSFontAttributeName: UIFont.boldSystemFont(ofSize: 25)] /* change title text color NavigationBar */
         
@@ -29,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent /* change status bar color. Note: Set "View controller-based status bar appearance" to NO in your Info.plist */
         
-        self.window?.rootViewController = navi
+        
         self.window?.makeKeyAndVisible()
         
         return true

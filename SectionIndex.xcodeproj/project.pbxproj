@@ -12,6 +12,9 @@
 		E24C442D1E2F612700927AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24C442B1E2F612700927AF6 /* LaunchScreen.storyboard */; };
 		E24C44351E2F617500927AF6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C44341E2F617500927AF6 /* TableViewController.swift */; };
 		E24C44371E2F635300927AF6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C44361E2F635300927AF6 /* Person.swift */; };
+		E2700E0B1E305D1C00A7E5F0 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2700E0A1E305D1C00A7E5F0 /* DetailVC.swift */; };
+		E2700E0F1E30632300A7E5F0 /* speech-bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = E2700E0D1E30632300A7E5F0 /* speech-bubble.png */; };
+		E2700E101E30632300A7E5F0 /* telephone-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = E2700E0E1E30632300A7E5F0 /* telephone-handle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E24C442E1E2F612700927AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24C44341E2F617500927AF6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E24C44361E2F635300927AF6 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E2700E0A1E305D1C00A7E5F0 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		E2700E0D1E30632300A7E5F0 /* speech-bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speech-bubble.png"; sourceTree = "<group>"; };
+		E2700E0E1E30632300A7E5F0 /* telephone-handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "telephone-handle.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		E24C44211E2F612700927AF6 /* SectionIndex */ = {
 			isa = PBXGroup;
 			children = (
+				E24C44361E2F635300927AF6 /* Person.swift */,
 				E24C44221E2F612700927AF6 /* AppDelegate.swift */,
 				E24C44341E2F617500927AF6 /* TableViewController.swift */,
-				E24C44361E2F635300927AF6 /* Person.swift */,
+				E2700E0A1E305D1C00A7E5F0 /* DetailVC.swift */,
 				E24C44291E2F612700927AF6 /* Assets.xcassets */,
 				E24C442B1E2F612700927AF6 /* LaunchScreen.storyboard */,
 				E24C442E1E2F612700927AF6 /* Info.plist */,
+				E2700E0C1E30630D00A7E5F0 /* Suppoting File */,
 			);
 			path = SectionIndex;
+			sourceTree = "<group>";
+		};
+		E2700E0C1E30630D00A7E5F0 /* Suppoting File */ = {
+			isa = PBXGroup;
+			children = (
+				E2700E0D1E30632300A7E5F0 /* speech-bubble.png */,
+				E2700E0E1E30632300A7E5F0 /* telephone-handle.png */,
+			);
+			name = "Suppoting File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2700E101E30632300A7E5F0 /* telephone-handle.png in Resources */,
+				E2700E0F1E30632300A7E5F0 /* speech-bubble.png in Resources */,
 				E24C442D1E2F612700927AF6 /* LaunchScreen.storyboard in Resources */,
 				E24C442A1E2F612700927AF6 /* Assets.xcassets in Resources */,
 			);
@@ -136,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24C44371E2F635300927AF6 /* Person.swift in Sources */,
+				E2700E0B1E305D1C00A7E5F0 /* DetailVC.swift in Sources */,
 				E24C44231E2F612700927AF6 /* AppDelegate.swift in Sources */,
 				E24C44351E2F617500927AF6 /* TableViewController.swift in Sources */,
 			);
@@ -289,6 +309,7 @@
 				E24C44331E2F612700927AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
